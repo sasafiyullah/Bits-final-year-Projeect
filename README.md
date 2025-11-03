@@ -109,6 +109,14 @@ You *must* create the following variable in your Automation Account's "Variables
 
 The script is now fully automated and will run on the schedule you defined.
 
+## Container where CSV save Example
+
+When the script runs and export all the SPN a credential nearing expiry, it store the CSV in a specific container.
+
+**Here is an example of the container:**
+
+![SPN Expiry Alert Email](assets/continer.png)
+
 ## Customization
 
 * **Alert Days:** To change when notifications are sent, modify the `$alertDays` array. For example, for quarterly and monthly alerts, you could use:
@@ -123,3 +131,5 @@ When the script detects a credential nearing expiry, it sends a clear, HTML-form
 **Here is an example of the notification email:**
 
 ![SPN Expiry Alert Email](assets/email-alert-example.png)
+
+
