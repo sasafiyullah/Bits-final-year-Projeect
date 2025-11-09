@@ -117,6 +117,11 @@ When the script runs and export all the SPN credential nearing expiry, it store 
 
 ![Container Image](assets/container.png)
 
+## Architecture
+
+This is the overall Architecture diagram of the project
+![Architecture Image](assets/Architecture.png)
+
 ## Customization
 
 * **Alert Days:** To change when notifications are sent, modify the `$alertDays` array. For example, for quarterly and monthly alerts, you could use:
@@ -131,5 +136,8 @@ When the script detects a credential nearing expiry, it sends a clear, HTML-form
 **Here is an example of the notification email:**
 
 ![SPN Expiry Alert Email](assets/email-alert-example.png)
+
+
+
 
 
