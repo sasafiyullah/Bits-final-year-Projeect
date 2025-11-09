@@ -1,6 +1,6 @@
 # Azure SPN Credential Expiry Notification
 
-![PowerShell](https://img.shields.io/badge/PowerShell-7.x-blue.svg)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.x-blue.svg)
 
 This project provides an automated PowerShell runbook for Azure Automation. It scans all Service Principals (SPNs) in your Microsoft Entra ID tenant, identifies credentials (secrets and certificates) that are nearing expiration, generates a full CSV report, and proactively sends HTML email notifications to the application owners via SendGrid.
 
