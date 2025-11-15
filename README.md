@@ -140,7 +140,7 @@ When the script detects a credential nearing expiry, it sends a clear, HTML-form
 
 
 ## TESTING CREATION LAB
-![testing] (assets/testing.png)
+![testing](assets/testing.png)
 
 
 
